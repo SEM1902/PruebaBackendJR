@@ -59,11 +59,6 @@ A continuación se detallan las rutas disponibles para probar la funcionalidad d
 { "ownerId": 1, "name": "Código Inventario", "description": "Uso interno" }
 ```
 
-## Pruebas e Interacción
-... (Continúa igual)
-
-## Detalles de Arquitectura
-
 - **Separación de Concern**: Las responsabilidades están divididas en carpetas `Entities`, `DTOs`, `Data` (Context) y `Controllers`.
 - **Previsión de Ciclos**: La API utiliza DTOs específicos para evitar problemas de recursividad en la serialización JSON de las relaciones uno-a-muchos.
 
